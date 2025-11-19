@@ -8,6 +8,5 @@ def Page():
     solara.Markdown("""
     這是一個使用 Solara 框架開發的 WebGIS 應用程式，展示了花蓮馬太鞍溪堰塞湖的地理資訊。
     """)
-    solara.Image("lake1.webp", alt="花蓮堰塞湖圖片", width="600px")
-    solara.Image("2.jpg", alt="花蓮堰塞湖圖片", width="600px")
+    solara.Image("https://example.com/hualien_barrier_lake_image.jpg", alt="花蓮堰塞湖圖片", width="600px")
 
