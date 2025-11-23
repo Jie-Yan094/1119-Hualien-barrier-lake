@@ -24,7 +24,7 @@ def create_3d_map():
     
     m = leafmap.Map(
         style=style_url,
-        center=[121.380, 23.632] 
+        center=[121.380, 23.632] ,
         zoom=12,
         pitch=65,  # 傾斜角度 (65度)
         bearing=15, # 旋轉角度 (15度)
