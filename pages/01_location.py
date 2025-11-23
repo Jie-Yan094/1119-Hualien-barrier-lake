@@ -20,7 +20,7 @@ def create_split_map():
 def Page():
     solara.Markdown("## 馬太鞍溪捲簾比對 (Split Map)")
     solara.Markdown(
-        "使用滑動分割視窗比較衛星影像與街道地圖，觀察河道與周邊環境。"
+        "使用滑動分割視窗比對衛星影像與街道地圖，觀察馬太鞍溪位置與附近河流地勢。"
     )
 
     # 使用 use_memo 產生地圖物件
